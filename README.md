@@ -41,4 +41,4 @@ just as before.
 ### Example
 
 Here is an example of usage. 
-![example](example.png)
+![example](screenshot.png)

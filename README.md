@@ -3,7 +3,13 @@
 
 ### What is WikiTricks?
 
-WikiTricks is a set of tools for working with DokuWiki. It is for now just a simple script to handle the definition of variables to use in a note and the dynamic numbering of Figures. 
+WikiTricks is a set of tools for working with DokuWiki. It is for now just a simple script to handle the definition of variables to use in a note and the dynamic numbering of Figures.
+
+Features:
+ * Define variables in a .ini file
+ * Update variables directly from a python script
+ * Dynamically number figures
+ 
 
 ### How to use variables?
 
@@ -37,6 +43,12 @@ source update.sh example.dokuwiki
 ```
 
 just as before. 
+
+
+### How to use the python script?
+
+That is just a simple but handy function to replace the variables in the .ini file directly from your python script or notebook. 
+
 
 ### Example
 

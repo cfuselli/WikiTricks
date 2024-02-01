@@ -1,0 +1,52 @@
+Test WikiTricks \\
+email@somewhere.com \\
+^ Figure :
+
+\\
+Date: Jan 2024
+
+======= Test WikiTricks =======
+
+This is the content of the .ini file: \\
+<code>
+[Shortcuts]
+pm = ±
+
+[YourResults]
+theory = 124.5
+experiment = 12e4
+my_data = 12% ± 2%
+</code>
+\\
+This will transform this input (without space after @): 
+<code> 
+We want to test a theroy with @ theory 
+datapoints and the experiment with @ experiment samples. 
+Our results are @ my_data.
+</code>
+into this output: \\
+We want to test a theroy with @theory datapoints and the experiment with @experiment samples. Our results are @my_data.
+
+\\
+We can also add some figures. The numbers will be added dynamically.\\ 
+The format is this one: 
+
+<code>
+^ Figure : An example figure^
+| Put your figure here | 
+</code>
+
+For example: \\
+
+^ Figure : An example figure^
+| Put your figure here | 
+
+^ Figure : Another example figure^
+| Put your figure here |
+
+^ Figure : A third example figure ^ Figure : with two columns^
+| Put your figure here | Put your figure here |
+
+The numbers where added dynamically, and letters are added for multiple columns.\\
+\\
+Ciao. 
